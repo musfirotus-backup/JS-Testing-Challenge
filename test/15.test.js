@@ -1,5 +1,5 @@
 const roman = require('../src/15');
-test("cek roman", () => {
+test("Roman to Decimal", () => {
     expect(roman("I")).toStrictEqual(1);
     expect(roman("II")).toStrictEqual(2);
     expect(roman("III")).toStrictEqual(3);
